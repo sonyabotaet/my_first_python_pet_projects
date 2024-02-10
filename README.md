@@ -1,1 +1,1 @@
-# my_first_python_pet_projects
+here are my first small python-oop projects
