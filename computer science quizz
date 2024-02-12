@@ -1,0 +1,35 @@
+print("Welcome to mu Quiz!")
+print("Let me check your computer science knowledge😁")
+Player = input('Do you want to play? \n')
+if Player.lower() != "yes":
+    print("that's too bad💔")
+    quit()
+name = input("My name is: ")
+print("Let's start!")
+
+result = 0
+
+answer = input("Q1:What is CPU? \n")
+if answer.lower() == "central processing unit":
+    print("yess")
+    result += 1
+else:
+    print("nooo")
+
+answer = input("Q2:What is GPU? \n")
+if answer.lower() == "graphical processing unit":
+    print("yess")
+    result += 1
+else:
+    print("nooo")
+
+answer = input("Q3:what is ML? \n")
+if answer.lower() == "machine learning":
+    print("yess")
+    result += 1
+else:
+    print("nooo")
+
+print('that"s all')
+print(f"You got {result} correct answers")
+print("Well done!")
